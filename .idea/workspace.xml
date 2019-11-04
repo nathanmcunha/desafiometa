@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81941e3b-7ebd-4e9e-8151-05bb29b3d7bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nathan/desafio/controller/CategoriaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nathan/desafio/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nathan/desafio/controller/ContatoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nathan/desafio/model/Categoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nathan/desafio/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nathan/desafio/model/Contato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nathan/desafio/repository/CategoriaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/nathan/desafio/repository/ProdutoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/nathan/desafio/repository/ContatoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/proxy.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/categoria-details/categoria-details.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/categoria-details/categoria-details.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/categoria-details/categoria-details.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/categoria-details/categoria-details.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/categoria-list/categoria-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/categoria-list/categoria-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/categoria-list/categoria-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/categoria-list/categoria-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/categoria.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/categoria.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/categoria.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/create-categoria/create-categoria.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/create-categoria/create-categoria.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/create-categoria/create-categoria.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/create-categoria/create-categoria.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/create-produto/create-produto.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/create-produto/create-produto.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/create-produto/create-produto.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/create-produto/create-produto.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/produto-details/produto-details.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/produto-details/produto-details.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/produto-details/produto-details.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/produto-details/produto-details.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/produto-list/produto-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/produto-list/produto-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/produto-list/produto-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/produto-list/produto-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/produto.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/produto.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/produto.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/update-produto/update-produto.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/update-produto/update-produto.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/update-produto/update-produto.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/app/update-produto/update-produto.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/tslint.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1T1XQtjSF1mmOXDJ2r13UAKN4ue" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/webApp/node_modules/protractor" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Users\Luisa\Documents\GitHub\desafio\webApp\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Luisa\Documents\GitHub\desafio\angular8-springboot-client\src\app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DesafioApplication">
+    <configuration name="E2E Tests (angular8-springboot-client)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/webApp/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/webApp/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="DesafioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="webApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.nathan.desafio.DesafioApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/webApp/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81941e3b-7ebd-4e9e-8151-05bb29b3d7bd" name="Default Changelist" comment="" />
+      <created>1572628563540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572628563540</updated>
+      <workItem from="1572628567403" duration="60000" />
+      <workItem from="1572701960921" duration="32096000" />
+      <workItem from="1572826730335" duration="1765000" />
+      <workItem from="1572885400193" duration="557000" />
+      <workItem from="1572885999977" duration="2757000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
